@@ -10,10 +10,12 @@
     justify-content: flex-end;
     background-color: $dark;
     color: $white;
+    padding: 10px 0;
 }
 
 .header__bottom {
     display: flex;
+    padding-top: 20px;
 }
 
 .heater__avatar {

@@ -4,6 +4,7 @@ body {
   background-color: #242B33;
   color: #FFF;
   font-size: 16px;
+  margin: 0;
 }
 
 a {
@@ -26,10 +27,21 @@ h3 {
   margin: 0;
 }
 
+li,
+ul,
+ol {
+  padding-left: 0;
+}
+
 .container {
+  width: 1140px;
   margin: 0 auto;
   padding: 0px 15px;
-  width: 1140px;
+}
+
+.bold {
+  color: #D4C17F;
+  font-weight: bold;
 }
 
 .none {
@@ -70,12 +82,14 @@ h3 {
           justify-content: flex-end;
   background-color: #242B33;
   color: #FFF;
+  padding: 10px 0;
 }
 
 .header__bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 20px;
 }
 
 .heater__avatar {
@@ -116,4 +130,70 @@ h3 {
      -moz-column-gap: 40px;
           column-gap: 40px;
   list-style: none;
+}
+
+.card {
+  padding: 25px 30px;
+  border: 1px solid #D4C17F;
+  border-radius: 24px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.card h3 {
+  color: #D4C17F;
+}
+.card ul,
+.card ol {
+  padding-left: 15px;
+}
+
+.info {
+  padding-top: 40px;
+}
+
+.info__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.info__code-discription {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 15px 10px;
+}
+
+.footer {
+  background-color: #FFF;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__create-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__author {
+  color: black;
+  padding-left: 20px;
+}
+.footer__author:hover {
+  color: #D4C17F;
+}
+
+.footer__logo-img {
+  height: 44px;
 }
