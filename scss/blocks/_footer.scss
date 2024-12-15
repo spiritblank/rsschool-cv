@@ -1,0 +1,29 @@
+.footer {
+    background-color: $white;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer__wrapper {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+}
+
+.footer__create-info {
+    display: flex;
+    align-items: center;
+}
+
+.footer__author {
+    color: black;
+    padding-left: 20px;
+
+    &:hover {
+        color: $accent;
+    }
+}
+
+.footer__logo-img {
+    height: 44px;
+}

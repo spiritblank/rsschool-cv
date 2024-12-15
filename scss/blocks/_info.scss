@@ -1,0 +1,14 @@
+.info {
+    padding-top: 40px;
+}
+
+.info__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.info__code-discription {
+    background-color: rgba($color: #000000, $alpha: 0.4);
+    padding: 15px 10px;
+}
