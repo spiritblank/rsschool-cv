@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header__nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: $dark;
+    color: $white;
+    padding: 10px 0;
+}
+
+.header__bottom {
+    display: flex;
+    padding-top: 20px;
+}
+
+.heater__avatar {
+    border-radius: 15%;
+    max-width: 200;
+    max-height: 200;
+}
+
+.header__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.header__title {
+    color: $accent;
+    margin: 10px 0;
+    font-size: 48px;
+}
